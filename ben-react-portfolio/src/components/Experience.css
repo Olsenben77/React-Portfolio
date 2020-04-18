@@ -1,0 +1,22 @@
+.experience {
+  height: 200vh;
+  background-color: goldenrod;
+}
+
+#divider {
+  border-left: 1vw solid beige;
+  margin-top: 25vh;
+  height: 150vh;
+  position: absolute;
+  left: 49.5vw;
+}
+
+#bob {
+  border-radius: 2vw;
+  width: 4vw;
+  height: 4vw;
+  background-color: navy;
+  position: fixed;
+  left: 48vw;
+  top: 25vh;
+}
