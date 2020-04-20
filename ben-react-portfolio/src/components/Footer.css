@@ -1,11 +1,10 @@
-.top-line,
-.bottom-line {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Contact {
+  margin-right: 50px;
+  font-family: "Fira Sans", sans-serif;
 }
-nav {
-  color: white;
-  background: black;
-  border-bottom: 5px solid red;
+#Footer {
+  color: #777777;
+  background-color: #777777;
+  border-top: 8px solid white !important;
+  height: 10vh;
 }

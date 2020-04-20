@@ -1,3 +1,5 @@
+@media screen and (max-width: 900px) and (min-width: 800px) {
+}
 ul {
   display: flex;
   align-items: center;
@@ -11,24 +13,97 @@ header {
   background-size: cover;
 }
 .page-info {
-  /* position: absolute;
-  top: 10px;
-  right: 16px; */
   width: 100%;
   z-index: 10;
   position: fixed;
   background-color: navy;
 }
+a {
+  color: white !important;
+}
+
 .page-info ul {
   width: 80%;
   justify-content: space-around !important;
   margin: 0 10% 0 10% !important;
 }
-.smoothscroll {
+#nav {
   color: white;
   font-size: 35px;
 }
+html {
+  scroll-behavior: smooth;
+}
 
-.smoothscroll:hover {
-  color: rgb(17, 17, 83);
+#nav :hover {
+  color: goldenrod;
+}
+.service-head h2 {
+  color: #fff;
+  background: goldenrod;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 70px !important;
+  padding: 15px;
+}
+.comment {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  bottom: -14px;
+  left: 10px;
+  border-style: solid;
+  border-width: 14px 15px 0 15px;
+  border-color: goldenrod transparent transparent transparent;
+}
+span.line {
+  width: 18%;
+  background: #8c8989;
+  height: 2px;
+  display: block;
+  margin-top: 26px;
+  position: relative;
+  margin: 23px auto 0px;
+}
+.border {
+  content: " ";
+  position: relative;
+  background: goldenrod;
+  height: 7px;
+  display: block;
+  width: 73px;
+  top: -4px;
+  left: 50px;
+}
+.btn {
+  margin-left: 533px;
+}
+.card {
+  height: 25em;
+  opacity: 0.9;
+  flex: 1 1 auto;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  width: 700px;
+  margin-left: 20em;
+}
+.header-left {
+  width: 300;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.col-md-4 {
+  width: 500px;
+}
+.btn {
+  margin-left: 0px !important;
+  margin-top: 50px;
+}
+span {
+  color: white;
+  margin-left: 150px;
 }
